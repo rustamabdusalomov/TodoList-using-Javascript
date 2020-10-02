@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    border-bottom: 1px solid #808080;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#delete {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: gray;
+    position: absolute;
+    right: 20px;
+}
+#todoList {
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#todo {
+    border: 1px solid #808080;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+h3 {
+    display: inline;
+    margin-left: 20px;
+
+}
+#add {
+    margin-left: 50%;
+    margin-top: 1%;
+    border-radius: 50%;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+input:checked + h3 {
+    text-decoration: line-through;
+    color: grey;
+}
+
